@@ -1,2 +1,5 @@
 build:
-	@docker build . -t latest
+	@docker build . -t nlopez/astp:latest
+
+push:
+	@docker push nlopez/astp:latest
